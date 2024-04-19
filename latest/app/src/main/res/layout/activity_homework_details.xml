@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.HomeworkDetailsActivity"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--        Header-->
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="24dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_close_x"
+            app:layout_constraintBottom_toBottomOf="@id/textView1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textView1"
+            app:tint="@color/primary_text_color"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/tabularasa_medium"
+            android:text="@string/homework_details"
+            android:textColor="@color/primary_text_color"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<!--        Homework info-->
+<!--        Subject-->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_section"
+            app:layout_constraintBottom_toBottomOf="@id/txtSubjectType"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtSubject"
+            app:tint="@color/secondary_text_color"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="Base de données"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView1"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/txtSubjectType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="TP"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/txtSubject"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtSubject"
+            app:layout_constraintTop_toBottomOf="@id/txtSubject" />
+
+<!--        Due date-->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_time"
+            app:layout_constraintBottom_toBottomOf="@id/txtHomeworkDueTime"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtHomeworkDueDate"
+            app:tint="@color/secondary_text_color"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtHomeworkDueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="19 avril 2021"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/txtSubjectType" />
+
+        <TextView
+            android:id="@+id/txtHomeworkDueTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="8:00 AM"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/txtHomeworkDueDate"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtHomeworkDueDate"
+            app:layout_constraintTop_toBottomOf="@id/txtHomeworkDueDate" />
+
+        <!--        Section + Group-->
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_list"
+            app:layout_constraintBottom_toBottomOf="@id/txtHomeworksGroups"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtHomeworkSection"
+            app:tint="@color/secondary_text_color"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtHomeworkSection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="L3 ISIL B"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/txtHomeworkDueTime" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="@string/group"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/txtHomeworkSection"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtHomeworkSection"
+            app:layout_constraintTop_toBottomOf="@id/txtHomeworkSection" />
+
+        <TextView
+            android:id="@+id/txtHomeworksGroups"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="1"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="@id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@id/textView3"
+            app:layout_constraintTop_toTopOf="@id/textView3" />
+
+        <!--        Teacher + Email-->
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_person"
+            app:layout_constraintBottom_toBottomOf="@id/txtHomeworkTeacherEmail"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtHomeworkTeacher"
+            app:tint="@color/secondary_text_color"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtHomeworkTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="Mohammed Djamel"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView7"
+            app:layout_constraintTop_toBottomOf="@+id/txtHomeworksGroups" />
+
+        <TextView
+            android:id="@+id/txtHomeworkTeacherEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tabularasa_regular"
+            android:text="teacher1@me.com"
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@id/txtHomeworkTeacher"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtHomeworkTeacher"
+            app:layout_constraintTop_toBottomOf="@id/txtHomeworkTeacher" />
+
+<!--        Homework content-->
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_notes"
+            app:tint="@color/secondary_text_color"
+            android:layout_marginStart="24dp"
+            app:layout_constraintBottom_toBottomOf="@id/txtHomeworkDescription"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/txtHomeworkTitle"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtHomeworkTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Serie 1, Exercice 2"
+            android:textColor="@color/primary_text_color"
+            android:textSize="18sp"
+            android:fontFamily="@font/tabularasa_regular"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/txtHomeworkTeacherEmail" />
+
+        <TextView
+            android:id="@+id/txtHomeworkDescription"
+            android:lineSpacingExtra="-2dp"
+            android:layout_width="0dp"
+            android:layout_marginEnd="16dp"
+            android:layout_height="wrap_content"
+            android:text="Faites le deuxième exercice de la première série, ne faites pas la dernière question car nous le ferons dans le cours."
+            android:textColor="@color/secondary_text_color"
+            android:textSize="15sp"
+            android:fontFamily="@font/tabularasa_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtHomeworkTitle"
+            app:layout_constraintTop_toBottomOf="@id/txtHomeworkTitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

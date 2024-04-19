@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#f60000</color>
+    <color name="green">#00bc00</color>
+    <color name="background_color">#f2f2f2</color>
+    <color name="primary_color">#317FFB</color>
+    <color name="my_purple">#445394</color>
+    <color name="primary_text_color">#303030</color>
+    <color name="secondary_text_color">#656565</color>
+    <color name="light_grey">#F5F5F5</color>
+    <color name="drawer_selected_bg">#e6efff</color>
+    <color name="onboarding_secondary_text_color">#757575</color>
+    <color name="onboarding_indicator_inactive_color">#609DFD</color>
+</resources>

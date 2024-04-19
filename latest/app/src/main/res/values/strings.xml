@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name" translatable="false">Timetune</string>
+
+    <string-array name="days">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+    </string-array>
+
+    <string-array name="homework_filter_values">
+        <item>All</item>
+        <item>Yesterday</item>
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>This week</item>
+    </string-array>
+
+    <string-array name="grades">
+        <item>MAB</item>
+        <item>MAA</item>
+        <item>MCB</item>
+        <item>MCA</item>
+        <item>PR</item>
+        <item>DOC</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+    <string-array name="languages_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="meeting_link">Meeting Link</string>
+    <string name="meeting_number">Meeting Number</string>
+    <string name="meeting_password">Meeting Password</string>
+    <string name="save">Save</string>
+    <string name="section">Section</string>
+    <string name="group">Group</string>
+    <string name="class_type">Class Type</string>
+    <string name="module">Module</string>
+    <string name="class_day">Class Day</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="schedule_class">Schedule Class</string>
+    <string name="group1">Group </string>
+    <string name="homework_details">Homework Details</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in_to_continue">Sign in to Continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="timetable">Timetable</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="you_have_no_homeworks">You Have No Homeworks</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="you_have">You have</string>
+    <string name="classes">classes</string>
+    <string name="class_1">class</string>
+    <string name="no_classes_today">No Classes Today</string>
+    <string name="new_homework">New Homework</string>
+    <string name="due_date">Due Date</string>
+    <string name="due_time">Due Time</string>
+    <string name="notes">Notes</string>
+    <string name="no_subjects_msg">No Subjects</string>
+    <string name="subject_details">Subject Details</string>
+    <string name="no_teachers_msg">No Teachers</string>
+    <string name="contact">Contact</string>
+    <string name="teacher">Teacher</string>
+    <string name="teacher_details">Teacher Details</string>
+    <string name="close">CLOSE</string>
+    <string name="contact1">Contact:</string>
+    <string name="developer_email1" translatable="false">teamwizards2004@gmail.com</string>
+    <string name="developer_2">Developer 2:</string>
+    <string name="developer_email2" translatable="false">teamwizards2004@gmail.com</string>
+    <string name="developer_1">Developer 1:</string>
+    <string name="logout_msg">You have logged out successfully</string>
+    <string name="time_table">Time Table</string>
+    <string name="homeworks">Homeworks</string>
+    <string name="subjects">Subjects</string>
+    <string name="teachers">Teachers</string>
+    <string name="settings">Settings</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="section1">Section:</string>
+    <string name="apply">Apply</string>
+    <string name="select_section_msg">Please Select a Section to See its Timetable</string>
+    <string name="filter">Filter</string>
+    <string name="select_section_subject_msg">Please select a section to see it\'s assigned homeworks</string>
+    <string name="date">Date</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="click_back_again_msg">Click back again to exit the app!</string>
+    <string name="meeting_link_copied">The meeting link has been copied</string>
+    <string name="meeting_number_copied">The meeting number has been copied</string>
+    <string name="meeting_password_copied">The meeting password has been copied</string>
+    <string name="email_msg1">Email can\'t be empty</string>
+    <string name="email_msg2">Please enter a valid email address</string>
+    <string name="department">Department</string>
+    <string name="homework_title">Homework Title</string>
+    <string name="class_details">Session details</string>
+    <string name="registration_number">Registration Number</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="speciality">Speciality</string>
+    <string name="empty_first_name_msg">First name can\'t be empty</string>
+    <string name="empty_reg_number_msg">Registration number can\'t be empty</string>
+    <string name="empty_last_name_msg">Last name can\'t be empty</string>
+    <string name="empty_password_msg">Password can\'t be empty</string>
+    <string name="password_msg2">Password too short</string>
+    <string name="empty_department_msg">Please choose a department</string>
+    <string name="empty_speciality_msg">Please choose a specialty</string>
+    <string name="empty_section_msg">Please choose a section</string>
+    <string name="empty_group_msg">Please choose a group</string>
+    <string name="no_filter_msg">No filter is applied!</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="session_deleted_msg">Session deleted successfully</string>
+    <string name="update_class">Update session</string>
+    <string name="select_groups">Select groups:</string>
+    <string name="cancel">Cancel</string>
+    <string name="link_msg">Meeting link can\'t be empty</string>
+    <string name="empty_module_msg">Please choose a module</string>
+    <string name="empty_type_msg">Please choose a module type</string>
+    <string name="empty_day_msg">Please choose a day</string>
+    <string name="error">Error: </string>
+    <string name="types">Types:</string>
+    <string name="types2">Types</string>
+    <string name="homework_deleted_msg">Homework deleted successfully</string>
+    <string name="select_due_time">Select due time</string>
+    <string name="select_due_date">Select due date</string>
+    <string name="empty_title_msg">Title can\'t be empty</string>
+    <string name="update_homework">Update homework</string>
+    <string name="select_end_time">Select end time</string>
+    <string name="select_start_time">Select start time</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="try_again">Try again</string>
+    <string name="email_taken">This email is already taken</string>
+    <string name="unknown_error">An unknown error occurred, Please try again later.</string>
+    <string name="new_teacher">New Teacher</string>
+    <string name="grade">Grade</string>
+    <string name="update_teacher">Update teacher</string>
+    <string name="no_changes_msg">There are no changes to save</string>
+    <string name="empty_grade_msg">Please choose a grade</string>
+    <string name="connection_failed">Connection failed, please check your internet access and try again</string>
+    <string name="sections">Sections</string>
+    <string name="back">Back</string>
+    <string name="select_section">Select sections</string>
+    <string name="no_sections_selected_msg">No sections are selected</string>
+    <string name="module2">Module:</string>
+    <string name="no_assignments_msg">No assignments</string>
+
+    <string name="new_assignment">New assignment</string>
+    <string name="module_type">Module type</string>
+    <string name="groups">Groups</string>
+    <string name="assignment_deleted_msg">Assignment was deleted successfully</string>
+    <string name="session_expired">Session expired, please login again.</string>
+    <string name="no_sections_in_department">No sections were found in this department</string>
+    <string name="email_msg3">Please try to use another email</string>
+    <string name="loading">Loading…</string>
+    <string name="logged_in_msg">You have logged in successfully</string>
+    <string name="assignment_already_exists">This assignment already exists</string>
+    <string name="email_password_incorrect">The email or password you entered is incorrect</string>
+    <string name="select_department_teacher_msg">Please select a department to see its teachers</string>
+    <string name="assignment_added">Assignment added successfully</string>
+    <string name="no_sections">No sections were found</string>
+    <string name="no_groups">No groups were found</string>
+    <string name="endtime_after_starttime">End time must be set after the start time</string>
+    <string name="time_not_allowed">A session cannot be created before 8AM or after 6PM</string>
+    <string name="overlapping_sessions">This session is overlapping an existing one</string>
+    <string name="session_created">Session created successfully</string>
+    <string name="edit_your_session_msg">You can only edit your own sessions</string>
+    <string name="delete_your_session_msg">You can only delete your own sessions</string>
+    <string name="signed_up_msg">You have signed up successfully</string>
+    <string name="general">General</string>
+    <string name="about">About</string>
+    <string name="change_app_language">Change the app\'s language</string>
+    <string name="key_language" translatable="false">LANGUAGE</string>
+    <string name="report_bugs">Report bugs</string>
+    <string name="report_bugs_msg">Report any bugs or issues you\'ve encountered</string>
+    <string name="key_report_bugs" translatable="false">REPORT_BUGS</string>
+    <string name="account">Account</string>
+    <string name="change_password">Change password</string>
+    <string name="change_password_msg">Change your account\'s password</string>
+    <string name="key_change_password" translatable="false">CHANGE_PASSWORD</string>
+    <string name="logout_all">Logout all</string>
+    <string name="logout_all_msg">Logout from all your logged in sessions</string>
+    <string name="key_logout_all" translatable="false">LOGOUT_ALL</string>
+    <string name="Homeworks">Homeworks</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirmation_code">Confirmation code</string>
+    <string name="empty_code_msg">Confirmation code can\'t be empty</string>
+    <string name="already_have_a_code">Already have a code?</string>
+    <string name="session_updated">Session updated</string>
+    <string name="logout_all_sucess">Logged out from all sessions successfully</string>
+    <string name="homework_created_success">Homework created successfully</string>
+    <string name="delete_your_homework_msg">You can only delete your own homeworks</string>
+    <string name="edit_your_homework_msg">You can only edit your own homeworks.</string>
+    <string name="homework_edited_success">Homework updated successfully</string>
+    <string name="saturday">Saturday</string>
+    <string name="key_change_section" translatable="false">CHANGE_SECTION</string>
+    <string name="change_section">Change section and group</string>
+    <string name="change_section_msg">Change your section and your group</string>
+    <string name="password_changed_successfully">Your password has been changed successfully</string>
+    <string name="invalid_old_password">The old password is invalid</string>
+    <string name="old_new_password_same">The old and the new passwords are the same</string>
+    <string name="email_does_not_exist">No account is registered with this email</string>
+    <string name="password_reset_email_sent">An email containing a password reset code has been sent to your address</string>
+    <string name="invalid_confirmation_code">Invalid confirmation code</string>
+    <string name="password_too_common">The password is too common</string>
+    <string name="language_preference_saved">Language preference saved, restart the application to apply the changes.</string>
+    <string name="section_changed_successfully">Section changed successfully</string>
+    <string name="comment">Comment</string>
+    <string name="report">Report</string>
+    <string name="confirm">Confirm</string>
+    <string name="comment_empty_msg">Comment can\'t be empty</string>
+    <string name="session_reported_successfully">The session has been reported successfully, the teacher has been notified.</string>
+    <string name="teacher_created_msg">Teacher was created successfully</string>
+    <string name="teacher_updated_msg">Teacher was updated successfully</string>
+    <string name="onboarding_title1">Welcome</string>
+    <string name="onboarding_title2">Stay Organized</string>
+    <string name="onboarding_title3">Always Prepared</string>
+    <string name="onboarding_description1">Welcome to Studynet, your online school planner, where you\'ll be able to manage your timetable and all your school homeworks in one place.</string>
+    <string name="onboarding_description2">With Studynet you can organize all your classes and homeworks, see all your subjects for the semester, get in touch with your teachers and so much more.</string>
+    <string name="onboarding_description3">Stay prepared for your homeworks and never miss another due date or class again, you\'ll get instantly notified of any changes and updates about your classes and homeworks.</string>
+</resources>

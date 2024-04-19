@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "743492191342",
+    "firebase_url": "https://timetune-4f797-default-rtdb.firebaseio.com",
+    "project_id": "timetune-4f797",
+    "storage_bucket": "timetune-4f797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743492191342:android:11219b5e39c7294aef127f",
+        "android_client_info": {
+          "package_name": "com.salmi.bouchelaghem.studynet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgFDqr0eCXiIS9-M4r5k5KimlCAosK5rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
